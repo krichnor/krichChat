@@ -1,8 +1,4 @@
-from dotenv import load_dotenv
 import os
-
-load_dotenv()
-api_key = os.getenv('API_KEY')
 
 os.environ['OPENAI_API_KEY'] = os.getenv('OPENAI_API_KEY')
 os.environ["ANTHROPIC_API_KEY"] = os.getenv('ANTHROPIC_API_KEY')
