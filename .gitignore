@@ -3,4 +3,6 @@ include/
 lib/
 data/
 myPackage/
-.envconfig.py
+.env
+config.py
+
